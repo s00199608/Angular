@@ -8,9 +8,7 @@ import { Observable, of, throwError } from 'rxjs';
 })
 export class BookService {
 
-  books: Book[] = [];
-
-  constructor(private bookService : BookService) { }
+  constructor() { }
 
 
   private dummyBooksData : Book[] = [{"tags":[],"_id":"61643ac437689140c4239e5f",
